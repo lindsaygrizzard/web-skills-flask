@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="/static/styles.css">
+
+  </head>
+
+
+<body>
+
+    <div class="explain">
+        <p>Explanatory text eplaining things about stuff and jobs and money you want if you could only choose between three etc etc etc...</p>
+    </div>
+    <div class="forma">
+        <form action = "/application" method="GET">
+            <label>Please enter your First and Last name:
+                <br>
+                <input type="text" name="first">
+                <input type="text" name="last">
+                <br>
+            </label>
+            <br>
+            <label>Salary Requirement:
+                <br>
+                $<input type="text" name="salary"> 
+                <br>
+            </label>
+            <br>
+            <label>Which job are you applying for? 
+                <br>
+                <lable>
+                <select name="job">
+                    <option value="software">Software Engineer</option>    
+                    <option value="terrific">QA Engineer</option>
+                    <option value="fantastic">Product Manager</option>
+                <br>
+                </label>
+                
+            <input type="submit" value="GO!">   
+        </form>
+    </div>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,35 @@
+body {
+    background-color: #d5ddda;
+}
+
+input {
+    background-color: yellow;
+}
+
+input[name="last"] {
+    font-weight: bold;
+}
+
+
+.explain {
+    max-width: 20%;
+    background-color: yellow;
+    border-radius: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 4%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.forma {
+    text-align: center;
+}
+
+form {
+    border: solid;
+    max-width: 40%;
+    padding: 2%;
+    margin: 0 auto;
+    background-color: #eee;
+}
